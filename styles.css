@@ -1,20 +1,21 @@
 :root {
-    --dk-color:#bf776b;
-    --mid-color:#f2b1a4;
-    --lt-color:#ffe8e3;
-    --dkest-color:#8e534a;
-     --accent:#226051;
+    --dk-color:#181825;
+    --mid-color:#1e1e2e;
+    --lt-color:#313244;
+    --dkest-color:#11111b;
+    --accent:#94e2d5;
+    --text-color:#cdd6f4;
 }
 html, body {
     margin:0;
     padding-top:25px;
     padding:0;
     height:100%;
-    font-family:Verdana;
+    font-family:'Courier New', Courier, monospace;
     font-size:11px;
     background-image:url('https://neothemes.neocities.org/images/roses-bg.gif');
     background-repeat:repeat;
-    color:var(--dkest-color);
+    color:var(--text-color);
     padding:1px;
     overflow-y:hidden;
 }
@@ -29,7 +30,7 @@ body a {
     height:100%;
 }
 h1, h3, h5 {
-    color:var(--dk-color);
+    color:var(--accent);
 }
 h2, h4, h6 {
     color:var(--accent);
@@ -44,9 +45,11 @@ h2, h4, h6 {
     border:1px solid var(--dkest-color);
 }
 .title {
-    font-size:35px;
+    font-size:7em;
     text-align:center;
-    font-style:italic;
+    font-style:bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 #wrapper {
     margin:0 auto;
@@ -96,7 +99,7 @@ h2, h4, h6 {
     padding-top:5px;
     padding-bottom:5px;
     background-color:var(--mid-color);
-    color:var(--dkest-color);
+    color:var(--text-color);
     font-size:12px;
 }
 .nav-wrapper {
@@ -112,7 +115,7 @@ button {
     width:190px;
     height:35px;
     background-color:var(--mid-color);
-    color:var(--dkest-color);
+    color:var(---color);
     font-weight:bold;
     border:none;
     margin-top:5px;
@@ -126,7 +129,7 @@ button {
     padding:5px;
 }
 p a {
- color:var(--dkest-color);
+ color:var(--text-color);
  font-weight:bold;
  }
 .scroll::-webkit-scrollbar-track {
@@ -154,7 +157,7 @@ p a {
     padding:5px;
 }
 textarea {
- background-color:var(--dkest-color);
+ background-color:var(--text-color);
  color:var(--lt-color);
  font-size:10px;
  }
