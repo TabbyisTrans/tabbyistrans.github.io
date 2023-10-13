@@ -13,7 +13,7 @@ html, body {
     height:100%;
     font-family:'Courier New', Courier, monospace;
     font-size:11px;
-    background-image:url('https://neothemes.neocities.org/images/roses-bg.gif');
+    background-image:url("background.gif");
     background-repeat:repeat;
     color:var(--text-color);
     padding:1px;
@@ -24,7 +24,7 @@ body a {
  font-weight:bold;
  }
 #container {
-    max-width:900px;
+    max-width:100%;
     margin:0 auto;
     margin-top:15px;
     height:100%;
@@ -69,15 +69,16 @@ h2, h4, h6 {
     overflow:auto;
 }
 .box-one, .box-two {
-    height:200px;
-    width:418px;
+    width:100%;
     margin-left:5px;
 }
 .box-one {
+    height:200px;
     margin-top:5px;
     margin-right:5px;
 }
 .box-two {
+    height: fit-content;
     margin-top:5px;
     margin-right:5px;
 }
@@ -104,8 +105,8 @@ h2, h4, h6 {
 }
 .nav-wrapper {
     display:flex;
-    flex-wrap:wrap;
-    width:400px;
+    flex-wrap:nowrap;
+    width:90%;
     height:50px;
     margin:0 auto;
     justify-content:space-evenly;
