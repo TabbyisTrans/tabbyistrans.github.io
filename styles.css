@@ -114,7 +114,7 @@ h2, h4, h6 {
     margin-bottom: 5px;
 }
 button {
-    width:190px;
+    width:fit-content;
     height:35px;
     background-color:var(--mid-color);
     color:var(---color);
