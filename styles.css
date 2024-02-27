@@ -77,6 +77,10 @@ h2, h4, h6 {
     margin-top:10px;
     margin-right:10px;
 }
+.container {
+    display:flex;
+    flex-wrap:nowrap;
+}
 .box-two {
     height: fit-content;
     margin-top:5px;
@@ -85,14 +89,13 @@ h2, h4, h6 {
 .box-three {
     margin-left:5px;
     margin-top:5px;
-    width:260px;
-    height:326px;
+    width:fit-content;
+    height:fit-content;
 }
 .box-four {
     margin-top:5px;
     margin-left:5px;
-    width:581px;
-    height:326px;
+    height:auto;
 }
 .section-title {
     text-align:center;
