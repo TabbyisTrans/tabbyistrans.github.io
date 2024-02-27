@@ -77,22 +77,27 @@ h2, h4, h6 {
     margin-top:10px;
     margin-right:10px;
 }
+
 .box-two {
     height: fit-content;
     margin-top:5px;
     margin-right:5px;
 }
+.two-boxes {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: stretch;
+}
 .box-three {
     margin-left:5px;
     margin-top:5px;
-    width:260px;
-    height:326px;
+    flex-basis: content;
 }
 .box-four {
     margin-top:5px;
     margin-left:5px;
-    width:581px;
-    height:326px;
+    width: min-content;
+    flex: auto;
 }
 .section-title {
     text-align:center;
